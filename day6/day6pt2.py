@@ -11,8 +11,6 @@ input = dict(Counter(input))
 input.update({0:0,6:0,7:0,8:0})
 aux = 0
 
-new_dict = {}
-
 input = collections.OrderedDict(sorted(input.items()))
 
 for days in range(256):
